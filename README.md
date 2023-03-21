@@ -21,7 +21,7 @@
     <p>In the Contact section, I provide a form for people to get in touch with me. This section can also include my email address, phone number, and links to my social media profiles.</p>
 
     <h2>How to Use</h2>
-    <p>To view my portfolio, simply open the personal-portfolio.html file in your web browser. From there, you can navigate to the different sections using the links in the header.</p>
+    <p>To view my portfolio, simply open the Personal_Portfolio.html file in your web browser. From there, you can navigate to the different sections using the links in the header.</p>
 
     <h2>License</h2>
     <p>This project is licensed under the MIT License - see the LICENSE file for details.</p>
