@@ -1,4 +1,6 @@
-My Personal Portfolio
+<html>
+  <body>
+    <h1>My Personal Portfolio</h1>
 
 
 About
@@ -28,3 +30,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Acknowledgements
 
 Thank you.
+ </body>
+</html>
