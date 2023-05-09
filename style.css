@@ -700,7 +700,7 @@ span {
   }
 }
 
-@media (max-width:360px){
+@media (max-width:315px){
 
   .navbar{
     position: absolute;
@@ -763,8 +763,8 @@ span {
   }
 
   .home-img img {
-    width: 300px;
-    height: 320px;
+    width: 250px;
+    height: 240px;
     margin-top: 5em;
     margin-right: 2em;
     margin-left: 1rem;
@@ -847,8 +847,8 @@ span {
 
   .div1 img{
     padding: 2%;
-    width: 220px;
-    height: 200px;
+    width: 200px;
+    height: 180px;
   }
 
   .footer-text p{
