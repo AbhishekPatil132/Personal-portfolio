@@ -694,13 +694,13 @@ span {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 888px) {
   .navbar {
     display: block !important;
   }
 }
 
-@media (max-width:500px){
+@media (max-width:328px){
 
   .navbar{
     position: absolute;
@@ -759,7 +759,7 @@ span {
   }
 
   .home-content h1{
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .home-img img {
@@ -851,6 +851,25 @@ span {
     height: 200px;
   }
 
+  .footer-text p{
+    font-size: 1rem;
+    text-align: center;
   
+  }
+  
+  .footer-iconTop a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    text-decoration: none;
+    border: 2px solid var(--bg-color);
+    border-radius: 50%;
+  }
+  
+  .footer-iconTop a, i {
+    font-size: 2rem;
+    color: var(--bg-color);
+  }
 }
 

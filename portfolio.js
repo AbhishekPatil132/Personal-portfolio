@@ -103,7 +103,7 @@ ScrollReveal().reveal('.A1, .home-content h1, .skills h2, .about-content h3', { 
 
 ScrollReveal().reveal('.A2, .skills h4, .home-content p, .about-content p', { origin:'right' });
 
-ScrollReveal().reveal('.footer');
+
 
 // ------------ Typed js -----
 
