@@ -763,8 +763,8 @@ span {
   }
 
   .home-img img {
-    width: 280px;
-    height: 270px;
+    width: 310px;
+    height: 290px;
     margin-top: 5em;
     margin-right: 2em;
     margin-left: 1rem;
@@ -823,7 +823,7 @@ span {
   }
   
   .portfolio-layer li{
-    font-size: 1rem;
+    font-size: 2rem;
   }
   
   .portfolio-layer a {
@@ -831,8 +831,8 @@ span {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     background: var(--text-color);
     border-radius: 50%;
     font-size: 1.5rem;
