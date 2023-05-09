@@ -699,3 +699,163 @@ span {
     display: block !important;
   }
 }
+
+@media (max-width:350px){
+
+  .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 3%;
+    background: var(--bg-color);
+    border-top: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    display: none;
+  }
+
+  .navbar .active {
+    display: block;
+  }
+
+  .navbar a{
+    display:block;
+    font-size: 2rem;
+    margin: 3rem 0;
+  }
+
+  .col-md-3,
+  .col-md-8 {
+  
+    float: none;
+    width: 100%;
+  }
+
+  .logo,
+  #menu {
+    display: block;
+    text-align: center;
+  }
+
+  .navbar {
+    display: block;
+    text-align: center;
+    
+  }
+
+  .div1 img{
+    margin-top: 2em; 
+    padding-left: 10%;
+    width: 270px;
+    height: 200px;
+  }
+
+  .home {
+    flex-direction: column;
+  }
+
+  .home-content h3{
+    font-size: 2.6rem;
+  }
+
+  .home-content h1{
+    font-size: 5rem;
+  }
+
+  .home-img img {
+    width: 300px;
+    height: 320px;
+    margin-top: 5em;
+    margin-right: 2em;
+    margin-left: 1rem;
+    border-radius: 35%;
+    margin-bottom: 6em;
+    animation: home-img 5s ease-in-out infinite;
+  }
+  
+  @keyframes home-img {
+    0% {
+      transform: translateY(0%);
+    }
+  
+    50% {
+      transform: translateY(-2%);
+    }
+  
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+  .home-div {
+    margin-left: 0rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+  }
+
+  .header{
+    padding:5px;
+    padding: 0px;
+  }
+
+  .portfolio{
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .portfolio h2{
+    margin-bottom: 3rem;
+  }
+
+  .portfolio-container{
+    grid-template-columns: repeat(1 , 1fr);
+  }
+
+  .portfolio-layer{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+  }
+  .portfolio-layer h4{
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  
+  .portfolio-layer li{
+    font-size: 1rem;
+  }
+  
+  .portfolio-layer a {
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background: var(--text-color);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: var(--bg-color);
+    transition: 0.2s ease;
+    box-shadow: 0 0 1rem var(--second-bg-color);
+  }
+  
+  .contact{
+    padding-top: 5%;
+  }
+
+  .div1 img{
+    padding: 2%;
+    width: 220px;
+    height: 200px;
+  }
+
+  
+}
+
+@media only screen and (min-width: 350px) {
+  .navbar {
+    display: block !important;
+  }
+}

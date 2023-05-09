@@ -100,3 +100,9 @@ typed = new Typed('.multi-text', {
      backDelay: 1000,
      loop: true
 });
+
+//  --------- Topper ---------
+
+function Topper(){
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
