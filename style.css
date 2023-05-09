@@ -700,7 +700,7 @@ span {
   }
 }
 
-@media (max-width:315px){
+@media (max-width:330px){
 
   .navbar{
     position: absolute;
