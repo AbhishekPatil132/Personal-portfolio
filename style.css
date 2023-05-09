@@ -700,7 +700,7 @@ span {
   }
 }
 
-@media (max-width:350px){
+@media (max-width:500px){
 
   .navbar{
     position: absolute;
@@ -854,8 +854,3 @@ span {
   
 }
 
-@media only screen and (min-width: 350px) {
-  .navbar {
-    display: block !important;
-  }
-}

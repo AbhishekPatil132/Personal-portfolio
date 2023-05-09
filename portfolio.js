@@ -60,6 +60,20 @@ mn.addEventListener('click', function () {
 
 });
 
+// Add a click event listener to all nav links
+navLinks = document.querySelectorAll('header nav a');
+navLinks.forEach(link => {
+  link.addEventListener('click', function () {
+
+    // Hide the navbar by setting the display property to "none"
+    navbar.style.display = 'none';
+
+    // Replace the "bx-x" class with "bx-menu" to show the menu icon
+    mn.classList.replace('bx-x', 'bx-menu');
+
+  });
+});
+
 // Add a media query that sets the display property of the navbar to "block" when the screen resolution is greater than or equal to 1200 pixels
 
 window.onload = function() {
